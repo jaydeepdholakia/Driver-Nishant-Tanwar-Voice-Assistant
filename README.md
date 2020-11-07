@@ -7,3 +7,5 @@
 - run `pip install -r requirements.txt`
 
 To build the project run `generate-exe.ps1`
+
+### Once Your PR is accepted. Please do contact at jaydeepdholakiaop@gmail.com to have it added in the Google Drive Folder so other people can use it's EXE file
