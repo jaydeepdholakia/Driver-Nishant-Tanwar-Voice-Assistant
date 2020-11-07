@@ -65,6 +65,7 @@ if __name__=='__main__':
         if "bye" in statement or "stop" in statement:
             print('Do not forget to subscribe Rider OP!')
             playsound.playsound('Files/Hindi_Responses/bye.mp3', True)
+            playsound.playsound('Files/Hindi_Responses/geeli_pappi.mp3', True)
             break
 
         if 'wikipedia' in statement:
