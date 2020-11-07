@@ -158,9 +158,18 @@ if __name__=='__main__':
             statement = statement.replace("search", "")
             webbrowser.open_new_tab(statement)
             time.sleep(5)
+            
+        elif 'How many channel does Tanmay Bhat posses on Youtube' in statement:
+            speak('Tanmay Bhat has namely 4 channel. Tanmay Bhat, Honestly by Tanmay Bhat, Samay Raina and Rider OP!')
+            
+        elif 'Why do you always speak the truth' in statement:
+            speak('Speak I am always made to speak the truth by JDOP! Hope you are offended by the truth')
+
 
         else:
             #playsound.playsound('Files/Hindi_Responses/not_taught.mp3', True)
             playsound.playsound('Files/Hindi_Responses/iska superchat lagega.mp3', True)
+            
+        
 
 time.sleep(3)
