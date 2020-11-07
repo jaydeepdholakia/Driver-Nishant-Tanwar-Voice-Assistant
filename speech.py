@@ -161,6 +161,11 @@ if __name__=='__main__':
             
         elif 'How many channel does Tanmay Bhat posses on Youtube' in statement:
             speak('Tanmay Bhat has namely 4 channel. Tanmay Bhat, Honestly by Tanmay Bhat, Samay Raina and Rider OP!')
+            time.sleep(5)
+
+        elif 'Samay Bhewafa kyu nikla' or 'Samay kyu Bhewafa nikla' in statement:
+            speak('Samay is experet in Snake gambit! Now I am not telling samay is a Snake. But samay replica the feature of a reptile who is expert in doing Fork with his tounge.HA HA HA')
+            time.sleep(5)
             
         elif 'Why do you always speak the truth' in statement:
             speak('Speak I am always made to speak the truth by JDOP! Hope you are offended by the truth')
@@ -169,7 +174,7 @@ if __name__=='__main__':
         else:
             #playsound.playsound('Files/Hindi_Responses/not_taught.mp3', True)
             playsound.playsound('Files/Hindi_Responses/iska superchat lagega.mp3', True)
-            time.sleep(5)
+            
         
 
 time.sleep(3)
