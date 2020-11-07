@@ -164,12 +164,12 @@ if __name__=='__main__':
             
         elif 'Why do you always speak the truth' in statement:
             speak('Speak I am always made to speak the truth by JDOP! Hope you are offended by the truth')
-
+            time.sleep(5)
 
         else:
             #playsound.playsound('Files/Hindi_Responses/not_taught.mp3', True)
             playsound.playsound('Files/Hindi_Responses/iska superchat lagega.mp3', True)
-            
+            time.sleep(5)
         
 
 time.sleep(3)
