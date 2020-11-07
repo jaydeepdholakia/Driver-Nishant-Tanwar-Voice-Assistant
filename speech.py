@@ -164,11 +164,11 @@ if __name__=='__main__':
             time.sleep(5)
 
         elif 'Samay Bhewafa kyu nikla' or 'Samay kyu Bhewafa nikla' in statement:
-            speak('Samay is experet in Snake gambit! Now I am not telling samay is a Snake. But samay replica the feature of a reptile who is expert in doing Fork with his tounge.HA HA HA')
+            speak('Samay is expert in Snake gambit! Now I am not telling samay is a Snake. But samay replica the feature of a reptile who is expert in doing Fork with his tounge.HA HA HA')
             time.sleep(5)
             
         elif 'Why do you always speak the truth' in statement:
-            speak('Speak I am always made to speak the truth by JDOP! Hope you are offended by the truth')
+            speak('I am always made to speak the truth by JDOP! Hope you are offended by the truth')
             time.sleep(5)
 
         else:
