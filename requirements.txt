@@ -1,0 +1,6 @@
+playsound
+PyAudio
+pyinstaller
+pyttsx3
+SpeechRecognition
+wikipedia
