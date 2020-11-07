@@ -1,3 +1,8 @@
+__pycache__/
 .idea/
 .vscode/
 venv/
+build/
+dist/
+*.spec
+*.exe
