@@ -38,6 +38,7 @@ def takeCommand():
     r=sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening...")
+        r.adjust_for_ambient_noise(source) #to eliminate noise and gives better output
         audio=r.listen(source)
 
         try:
@@ -69,8 +70,8 @@ if __name__=='__main__':
             break
 
         if 'wikipedia' in statement:
-            speak('Searching Wikipedia...')
-            statement =statement.replace("wikipedia", "")
+            speak('Mention any topic you want to search')
+            statement = takeCommand().lower()
             results = wikipedia.summary(statement, sentences=3)
             speak("According to Wikipedia")
             print(results)
@@ -158,6 +159,21 @@ if __name__=='__main__':
             playsound.playsound('Files/Hindi_Responses/ok.mp3', True)
             statement = statement.replace("search", "")
             webbrowser.open_new_tab(statement)
+            time.sleep(5)
+
+        elif 'youtube' in statement or  'rider youtube channel' in statement or 'rider channel' in statement:
+            youtube_link= webbrowser.open_new_tab("https://www.youtube.com/channel/UCiPsC1ncmlvC9nCFxNvlaOQ")
+            speak('Here is the link of Rider OP Youtube channel')
+            time.sleep(10)
+
+        elif 'discord' in statement or 'discord server' in statement:
+            discord_link = webbrowser.open_new_tab("https://discord.com/invite/77pZB3X")
+            speak('Join Rider OP Discord Link')
+            time.sleep(5)
+
+        elif 'insta' in statement or 'instagram' in statement:
+            insta_link = webbrowser.open_new_tab("https://www.instagram.com/jokesingh/")
+            speak('Follow Rider OP on Instagram')
             time.sleep(5)
 
         else:
