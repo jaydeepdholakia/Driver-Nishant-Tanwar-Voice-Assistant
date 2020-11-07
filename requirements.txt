@@ -1,0 +1,5 @@
+playsound
+PyAudio
+pyttsx3
+SpeechRecognition
+wikipedia
